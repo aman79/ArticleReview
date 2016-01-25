@@ -1,0 +1,30 @@
+<div class="col-lg-6" style="background-color:lavender">
+<button type="button" class="delete pull-right">X</button>
+<h1 style="border-bottom:1px solid green">Feedback On <%= article.name%> </h1>
+<div style="float:left;width:40%">
+Posts:-<span id="totalpost" ></span>
+</div>
+<span id="appropriate"></span>% found for what They are looking for
+<div class="col-lg-12" style="background-color: silver">
+<div class="col-lg-12" style="background-color: blue;height:30px;margin-top:10px;margin-bottom:10px">Provide Feedback</div>
+<div style="margin-top:40px">
+<span>*UserName:</span><input type="text" id="txtUname" style="margin-left:70px">
+</div>
+<div style="margin-top:10px">
+<span>*Did You Get For What You Are Searching?:</span>
+<input type="radio" name="choice" value=true>Yes
+<input type="radio" name="choice" value=false>No
+</div>
+<div style="margin-top:10px">
+<span>*FeedBack:</span>
+<br>
+<textarea rows="5" cols="30" id="feedbackcomments" style="margin-left:200px"></textarea>
+</div>
+<div style="margin-top:10px">
+<button type="button" id="feedbackpost" class="btn btn-default" style="margin-left:200px">Post</button>
+</div>
+</div>
+<h1 style="border-bottom:4px solid green" class="col-lg-12">Feedbacks</h1>
+<div id="feedbacks">
+</div>
+</div>
